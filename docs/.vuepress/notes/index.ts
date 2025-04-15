@@ -5,6 +5,8 @@ import sinopec19 from './sinopec19'
 import sinopec09 from './sinopec09'
 import sinopec21 from './sinopec21'
 import sinopecqa from './sinopecqa'
+import C_Programming from './C_Programming'
+
 import note from './note'
 
 
@@ -19,6 +21,7 @@ export default defineNotesConfig({
   notes: [ 
     sinopec07,
     sinopec19,
+    C_Programming,
     sinopec21,
     sinopecqa,
     note,
