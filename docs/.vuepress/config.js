@@ -16,7 +16,7 @@ export default defineUserConfig({
   },
   theme: plumeTheme({
     hostname: 'http://docs.cuute.cn',
-    docsRepo: 'https://github.com/imanb',
+    docsRepo: 'https://github.com/imwanb',
     docsBranch: 'master',
     docsDir: 'docs',
     encrypt: {
