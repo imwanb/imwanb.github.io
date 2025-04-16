@@ -1,6 +1,6 @@
 ---
 home: true
-title: 技术文档
+title: NcatBot 文档
 icon: solar:cat-linear
 config:
   - type: hero
@@ -17,16 +17,20 @@ config:
         offset: 19
     full: true
     hero:
-      name: 技术文档
-      tagline: 生活就是一场游戏！
-      text: 学习也是一种生活！
+      name: NcatBot
+      tagline: Python SDK Framework
+      text: 基于 Napcat 的 Python SDK
       actions:
         - theme: brand
           text: 快速开始
-          link: /
+          link: /guide/dto79lp7/
           suffixIcon: material-symbols:start-rounded
         - theme: alt
-          text: baidu
-          link: https://www.baidu.com/
+          text: NcatBot
+          link: https://github.com/liyihao1110/NcatBot
+          icon: mdi:github
+        - theme: alt
+          text: NcatBotDocs
+          link: https://github.com/Isaaczhr/NcatBotDocs
           icon: mdi:github
 ---
