@@ -5,6 +5,7 @@ import { plumeTheme } from 'vuepress-theme-plume'
 export default defineUserConfig({
   // 请不要忘记设置默认语言
   blog: false,
+  base: '/',
   lang: 'zh-CN',
   head: [
     [
@@ -17,7 +18,7 @@ export default defineUserConfig({
   theme: plumeTheme({
     hostname: 'http://docs.cuute.cn',
     docsRepo: 'https://github.com/imanb',
-    docsBranch: 'master',
+    docsBranch: 'main',
     docsDir: 'docs',
     encrypt: {
       //global: true,

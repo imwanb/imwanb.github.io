@@ -1,29 +1,9 @@
-# node modules
-node_modules
+**/node_modules
 
-# MacOS desktop services store
+docs/.vuepress/.cache
+docs/.vuepress/.temp
+docs/.vuepress/dist
+
 .DS_Store
-
-# Log files
 *.log
-
-# Meta files
-TODOs.md
-
-# Editors
-.idea
-.obsidian
-
-# VuePress temp directory
-.temp
-
-# Docs dist directory
-/vuepress
-
-# Typescript build dist
-packages/@vuepress/shared-utils/lib/
-packages/@vuepress/shared-utils/types/
-/docs/.vuepress/.cache
-/docs/.vuepress/.temp
-
-dist/
+node_modules
