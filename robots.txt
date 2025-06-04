@@ -1,0 +1,7 @@
+User-agent: *
+
+Allow: /
+Sitemap: http://docs.cuute.cn/sitemap.xml
+
+User-agent:*
+Disallow:
